@@ -1,0 +1,43 @@
+/* Location.css */
+ .container {
+    display: block;
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .container1 {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  } 
+  
+  .checkmark {
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 35%;
+    height: 15px;
+    width: 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+  }
+  
+  .sidebar-label-container:hover input ~ .checkmark {
+    background-color: #f5f5f5;
+  }
+  
+  .sidebar-label-container input:checked ~ .checkmark {
+    background-color: #2196f3;
+  }
+  .box{
+    max-width: 100%;
+    background-color:white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 10px;
+    
+  }
+  /* Add more styling as needed for InputField */
+  

@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Dosis:wght@200;400&family=Open+Sans:wght@300;400&display=swap');
+
+/* Check the path and file name for the font import */
+/* @font-face {
+    font-family: 'Helvetica';
+    src: url('./Helvetica.otf') format('opentype');
+  } */
+  
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+footer {
+    font-family: 'Helvetica', sans-serif; /* Use the 'Helvetica' font */
+}
+
+
+footer {
+    background-color: black;
+    height: auto;
+    width: 100%;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 200;
+    color: white; 
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+
+footer .some-element {
+    font-family: 'Helvetica', sans-serif;
+}
+
+
+.foot {
+    text-align: center;
+    padding-top: 50px;
+    display: flex;
+}
+
+
+footer .some-other-element {
+    font-family: 'Helvetica', sans-serif;
+}
+
+.foot a {
+    margin: 0 10px; 
+    color: white; 
+    font-size: 24px; 
+}
+
+
+.foot a:hover {
+    color: bisque; 
+    transition-duration: 2s ease-in;
+}
+
+
+.foot a:hover .fa-facebook {
+    
+    background: -webkit-linear-gradient(#4267B2, #4267B2, #4267B2);
+}
+
+.foot a:hover .fa-instagram {
+    
+    background: -webkit-linear-gradient(#515BD4, #8134AF, #DD2A7B, #FEDA77, #F58529);
+}
+
+.foot a:hover .fa-twitter {
+    
+    background: -webkit-linear-gradient(#1D9BF0, #1D9BF0, #1D9BF0);
+}
+
+.foot a:hover .fa-youtube {
+    
+    background: -webkit-linear-gradient(#CD201F, #CD201F, #CD201F);
+}
+
+.foot a:hover .fa-whatsapp {
+    
+    background: -webkit-linear-gradient(#25D366, #25D366, #25D366);
+}
+
+.details {
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0px;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+.details div {
+    width: 165px;
+}
+
+
+.lnk {
+    cursor: pointer;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.details div {
+    margin: 70px;
+    margin-top: 20px;
+}
+
+.details ul {
+    margin-top: 10px;
+}
+
+.details li {
+    margin-top: 5px;
+}
+
+.details li a {
+    color: white;
+    font-size: 1em;
+}
+
+.details h3 {
+    color: rgb(174, 14, 14);
+    font-size: 1.7em;
+    font-weight: 500;
+}
+
+
+
+.details ul li a:hover {
+    color: bisque;
+    transition-duration: 2s ease-in;
+    font-weight: 500;
+}

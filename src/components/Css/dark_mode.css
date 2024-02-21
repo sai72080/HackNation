@@ -1,0 +1,17 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--background-color);
+}
+
+body:not(.dark-mode){
+    background-color: #f1f2f6;
+    color: #1e272e;
+}
+
+.dark-mode{
+    background-color: #1e272e;
+    color: #f1f2f6;
+}
+

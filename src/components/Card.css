@@ -1,0 +1,18 @@
+.card{
+    width: 90%;
+    /* background-color: rgb(156, 156, 156); */
+    padding: 10px;
+    padding-top: 30px;
+    border-radius: 15px;
+    margin: 8px;
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.081);
+}
+.link-details{
+    text-decoration: none;
+    
+}
+
+.flex items-center gap-2{
+    color: black;
+}

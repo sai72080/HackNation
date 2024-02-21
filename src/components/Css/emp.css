@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.container .card{
+    width: 30%;
+    height: 300px;
+    background-color: aqua;
+    border-radius: 15px;
+    margin-left: 500px;
+}
+
+.container .card p{
+    word-spacing: 1px;
+    padding-top: 5%;
+}
